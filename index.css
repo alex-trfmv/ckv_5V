@@ -10,10 +10,16 @@ body{
     width: 100%;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 #help p{
     margin: 0;
     color: transparent
+}
+#help a{
+    color: transparent;
+    font-size: 1px;
 }
 h1{
     font-size: 5em;
@@ -24,9 +30,12 @@ h1{
 h3{
     font-size: 3em;
     text-align: center;
-    margin: 20vh;
     color: rgb(172, 0, 0);
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px  1px 0 black, 1px  1px 0 black;
+}
+a{
+    color: black;
+    text-decoration: none;
 }
 .block{
     height: 50vh;
@@ -65,18 +74,36 @@ p{
 #n1{
     background-color: darkred;
 }
+#n1:hover{
+    background-color: rgb(209, 0, 0);
+}
 #n2{
-    background-color: burlywood;
+    background-color: hsl(34, 57%, 60%);
+}
+#n2:hover{
+    background-color: hsl(34, 57%, 70%);
 }
 #n3{
-    background-color: darkgoldenrod;
+    background-color: hsl(43, 74%, 49%);
+}
+#n3:hover{
+    background-color: hsl(43, 74%, 59%);
 }
 #n4{
-    background-color:blueviolet;
+    background-color:hsl(271, 76%, 53%);
+}
+#n4:hover{
+    background-color: hsl(271, 76%, 63%);
 }
 #n5{
-    background-color:midnightblue;
+    background-color:hsl(240, 64%, 27%);
+}
+#n5:hover{
+    background-color: hsl(240, 64%, 37%);
 }
 #n6{
-    background-color: aquamarine;
+    background-color: hsl(160, 100%, 70%);
+}
+#n6:hover{
+    background-color: hsl(160, 100%, 80%);
 }
