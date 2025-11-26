@@ -72,10 +72,10 @@ p{
     flex: 1;
 }
 #n1{
-    background-color: darkred;
+    background-color: maroon;
 }
 #n1:hover{
-    background-color: rgb(209, 0, 0);
+    background-color: hsl(0, 100%, 30%);
 }
 #n2{
     background-color: hsl(34, 57%, 60%);
