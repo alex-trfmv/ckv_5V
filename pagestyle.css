@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    width: 100%;
+    background-size:100%;
+    font-size: clamp(2.5rem, 4vw, 5rem);
+    text-align: center;
+    margin-top: 0;
+    text-shadow: 0px 8px 2px black;
+}
+#a{
+    background-image: url(img/architectuur/mgu.jpg);
+    color: maroon;
+}
+#b{
+    background-image: url(img/boeken/knigi2.jpg);
+    color: limegreen;
+}
+#t{
+    background-image: url(img/dans/ozero.jpg);
+    color: darkorange;
+}
+#g{
+    background-image: url(img/games/atomic33.jpg);
+    color: aqua;
+}
+#m{
+    background-image: url(img/music/klankerimage.png);
+    color: purple;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    height: 75vh;
+    width: 100%;
+}
+.block1{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    flex-direction: row;
+    justify-content: left;
+    background-color: steelblue;
+    padding: 10px;
+}
+.block2{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    flex-direction: row;
+    justify-content: right;
+    background-color:lightblue;
+    padding: 10px;
+}
+p{
+    font-size: 1vw;
+    padding: 5px;
+    text-align: justify;
+}
+h2{
+    padding: 5px;
+}
+.row:first-child{
+    justify-content: left;
+}
+img{
+    height: 40%;
+    width: auto;
+    padding: 10px;
+}
+audio{
+    width: 15vw;
+}
