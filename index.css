@@ -16,7 +16,7 @@ body{
 #help p{
     margin: 0;
     color: transparent;
-    font-size: 1px;
+    font-size: 0.1px;
 }
 #help a{
     color: transparent;
