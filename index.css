@@ -20,7 +20,7 @@ body{
 }
 #help a{
     color: transparent;
-    font-size: 1px;
+    font-size: 0.1px;
 }
 h1{
     font-size: clamp(2rem, 5vw, 6rem);
